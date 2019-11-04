@@ -1,0 +1,8 @@
+github.com/gorilla/websocket v1.4.1 h1:q7AeDBpnBk8AogcD4DSag/Ukw/KV+YhzLj2bP5HvKCM=
+github.com/gorilla/websocket v1.4.1/go.mod h1:YR8l580nyteQvAITg2hZ9XVh4b55+EU/adAjf1fMHhE=
+github.com/samotarnik/bitstamp-go v0.0.0-20191024211713-36cb10b875e5 h1:QHgNf+LMtaX2SYn8oHPw959oUurx3SrU6fK4uvos5yo=
+github.com/samotarnik/bitstamp-go v0.0.0-20191024211713-36cb10b875e5/go.mod h1:o91yOcS6xakFU+QoeNMebYrlVdpRa0uwPbR8XDEQTvA=
+github.com/shopspring/decimal v0.0.0-20191009025716-f1972eb1d1f5 h1:Gojs/hac/DoYEM7WEICT45+hNWczIeuL5D21e5/HPAw=
+github.com/shopspring/decimal v0.0.0-20191009025716-f1972eb1d1f5/go.mod h1:M+9NzErvs504Cn4c5DxATwIqPbtswREoFCre64PpcG4=
+github.com/smira/go-statsd v1.3.1 h1:JalGiHNdK7GqVAPpg7j0Kwp2jZrz/fCg/B4ZuNuBY2w=
+github.com/smira/go-statsd v1.3.1/go.mod h1:1srXJ9/pbnN04G8f4F1jUzsGOnwkPKXciyqpewGlkC4=

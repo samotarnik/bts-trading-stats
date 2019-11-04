@@ -1,0 +1,13 @@
+version: "3"
+services:
+  app:
+    image: bts-trading-stats:0.1.0  # TODO: use git tags for versioning?
+    container_name: bts-trading-stats
+    restart: always
+    # host's 8080 to container's nginx port
+    ports:
+      - "8080:80"
+    # overwrite default settings for metrics normalization
+    volumes:
+      - ./conf/graphite/storage-schemas.conf:/opt/graphite/conf/storage-schemas.conf
+      - ./conf/statsd/udp.js:/opt/statsd/config/udp.js
