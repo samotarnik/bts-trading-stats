@@ -1,9 +1,12 @@
-.PHONY: build run stop
+.PHONY: default build run stop
+
+default:
+	cat Makefile
 
 build:
 	docker build \
 		-f Dockerfile \
-		-t bts-trading-stats:0.1.0 \
+		-t bts-trading-stats:0.2.0 \
 		--build-arg VCS_REF=`git rev-parse HEAD` \
 		--build-arg BUILD_DATE=`date -u +”%Y-%m-%dT%H:%M:%SZ”`\
 		.

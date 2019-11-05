@@ -11,3 +11,8 @@
 ## how
 
 See `Makefile`, it's quite simple.
+
+## resources
+
+* https://www.digitalocean.com/community/tutorials/how-to-configure-statsd-to-collect-arbitrary-stats-for-graphite-on-ubuntu-14-04
+* https://www.digitalocean.com/community/tutorials/how-to-install-and-use-graphite-on-an-ubuntu-14-04-server
