@@ -70,6 +70,9 @@ func main() {
 				sd.Incr(channelsToStats[e.Channel], 1)
 				sd.Incr("trades.all", 1)
 			}
+		case err := <-ws.Errors:
+			// crash in case of an error and let runit restart the program
+			log.Fatal(err)
 		}
 	}
 }

@@ -1,0 +1,130 @@
+[
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.all,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.all, \"sum\"))"
+    ],
+    "title": "ALL",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.btcusd,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.btcusd, \"sum\"))"
+    ],
+    "title": "BTCUSD",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.btceur,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.btceur, \"sum\"))"
+    ],
+    "title": "BTCEUR",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.ethusd,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.ethusd, \"sum\"))"
+    ],
+    "title": "ETHUSD",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.etheur,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.etheur, \"sum\"))"
+    ],
+    "title": "ETHEUR",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.ethbtc,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.ethbtc, \"sum\"))"
+    ],
+    "title": "ETHBTC",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.xrpusd,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.xrpusd, \"sum\"))"
+    ],
+    "title": "XRPUSD",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.xrpeur,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.xrpeur, \"sum\"))"
+    ],
+    "title": "XRPEUR",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.xrpbtc,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.xrpbtc, \"sum\"))"
+    ],
+    "title": "XRPBTC",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.ltcusd,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.ltcusd, \"sum\"))"
+    ],
+    "title": "LTCUSD",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.ltceur,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.ltceur, \"sum\"))"
+    ],
+    "title": "LTCEUR",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.ltcbtc,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.ltcbtc, \"sum\"))"
+    ],
+    "title": "LTCBTC",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.bchusd,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.bchusd, \"sum\"))"
+    ],
+    "title": "BCHUSD",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.bcheur,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.bcheur, \"sum\"))"
+    ],
+    "title": "BCHEUR",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.bchbtc,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.bchbtc, \"sum\"))"
+    ],
+    "title": "BCHBTC",
+    "hideLegend": "true"
+  },
+  {
+    "target": [
+      "consolidateBy(stats.bts.orders.eurusd,\"sum\")",
+      "secondYAxis(consolidateBy(stats.bts.trades.eurusd, \"sum\"))"
+    ],
+    "title": "EURUSD",
+    "hideLegend": "true"
+  }
+]

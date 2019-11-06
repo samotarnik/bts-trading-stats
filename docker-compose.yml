@@ -1,7 +1,7 @@
 version: "3"
 services:
   app:
-    image: bts-trading-stats:0.2.0  # TODO: use git tags for versioning?
+    image: bts-trading-stats:0.3.0  # TODO: use git tags for versioning?
     container_name: bts-trading-stats
     restart: always
     # host's 8080 to container's nginx port
